@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@Repository
+@Repository // 컴포넌트 스캔의 대상이 됨
 public class MemberRepository {
     @PersistenceContext
     private EntityManager em;
