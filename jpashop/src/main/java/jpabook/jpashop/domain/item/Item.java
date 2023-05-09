@@ -26,4 +26,7 @@ public abstract class Item {
 
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<Category>();
+
+    //==비즈니스 로직==//
+    
 }
